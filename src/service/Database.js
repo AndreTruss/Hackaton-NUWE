@@ -1,7 +1,6 @@
 const mongoose = require( 'mongoose' );
 
-//const MONGODB_URI = "mongodb://localhost:27017/hackaton-nuwe"
-const MONGODB_URI = "mongodb+srv://AndreTruss:bpbUGW0U6Gxl8kOE@cluster0.lnihe.mongodb.net/hackaton?retryWrites=true&w=majority"
+const MONGODB_URI = "mongodb://localhost:27017/hackaton-nuwe"
 
 const connectDB = async() => {
     try {
