@@ -1,0 +1,29 @@
+{
+  "name": "hackaton-nuwe",
+  "version": "1.0.0",
+  "description": "repte #4 Operaciones CRUD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreTruss/Hackaton-NUWE.git"
+  },
+  "keywords": [],
+  "author": "Andrea Trussardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreTruss/Hackaton-NUWE/issues"
+  },
+  "homepage": "https://github.com/AndreTruss/Hackaton-NUWE#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
